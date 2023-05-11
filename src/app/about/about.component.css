@@ -6,6 +6,6 @@
     .pdf::ng-deep .pdfViewer {
         transform: scale(0.48); /* Adjust the scale value as needed */
         transform-origin: 0 0;
-        height: 700px;
+        height: 600px;
       }
 }
