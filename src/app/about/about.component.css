@@ -4,7 +4,8 @@
 }
 @media screen and (max-width:400px) {
     .pdf::ng-deep .pdfViewer {
-        transform: scale(0.45); /* Adjust the scale value as needed */
+        transform: scale(0.48); /* Adjust the scale value as needed */
         transform-origin: 0 0;
+        height: 700px;
       }
 }
