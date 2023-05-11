@@ -29,8 +29,8 @@
 }
 
 .photo img{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     filter: drop-shadow(16px 10px 20px rgba(0, 0, 0, 0.363));
 }
