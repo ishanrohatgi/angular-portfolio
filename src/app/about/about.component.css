@@ -2,10 +2,20 @@
     display: block;
     height: 92vh;
 }
-@media screen and (max-width:400px) {
-    .pdf::ng-deep .pdfViewer {
-        transform: scale(0.48); /* Adjust the scale value as needed */
-        transform-origin: 0 0;
+
+code{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media screen and (max-width:500px) {
+    .pdf{
         height: 600px;
       }
 }
