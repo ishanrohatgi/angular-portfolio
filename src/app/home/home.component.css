@@ -10,6 +10,11 @@
     
     flex-wrap: wrap-reverse;
 }
+.main-home h3{
+    background-color: rgb(240, 240, 31);
+    border-radius:50px;
+    text-align: center;
+}
 .intro{
     padding: 50px;
     width: 600px;
