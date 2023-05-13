@@ -92,5 +92,6 @@ code{
         text-align: justify;
         font-size: .85rem;
         font-weight: bolder;
+        padding:5px 10px;
     }
 }
