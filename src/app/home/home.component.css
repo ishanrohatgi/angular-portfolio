@@ -89,6 +89,8 @@ code{
         width: 120px;
     }
     .intro ul li{
-        text-align: left;
+        text-align: justify;
+        font-size: .85rem;
+        font-weight: bolder;
     }
 }
