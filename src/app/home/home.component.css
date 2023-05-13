@@ -65,7 +65,7 @@ code{
 }
 
 .intro ul{
-    list-style: disc;
+    list-style-type: "✨ ";
 }
 
 @keyframes jump {
