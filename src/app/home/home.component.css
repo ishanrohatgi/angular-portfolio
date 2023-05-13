@@ -64,6 +64,10 @@ code{
     left: 0px;
 }
 
+.intro ul{
+    list-style: disc;
+}
+
 @keyframes jump {
     0% {
         bottom:0px;
