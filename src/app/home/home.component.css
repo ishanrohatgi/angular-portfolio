@@ -11,14 +11,14 @@
     flex-wrap: wrap-reverse;
 }
 .main-home h3{
-    background-color: rgb(240, 240, 31);
+    background-color: rgb(69, 106, 230);
     border-radius:50px;
     text-align: center;
+    color: white;
 }
 .intro{
     padding: 50px;
     width: 600px;
-    text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,10 @@
     border-radius: 50%;
     filter: drop-shadow(16px 10px 20px rgba(0, 0, 0, 0.363));
 }
-
+marquee{
+    position: fixed;
+    bottom: 0px;
+}
 marquee img{
 position: relative;
 height: 200px;
@@ -77,7 +80,12 @@ code{
 }
 
 @media screen and (max-width:500px) {
-    code{
-        bottom:-45%;
+    .photo img{
+        height: 120px;
+        width: 120px;
+    }
+    .intro ul li{
+        font-size: 0.75rem;
+        text-align: left;
     }
 }
