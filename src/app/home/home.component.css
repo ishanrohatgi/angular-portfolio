@@ -68,6 +68,10 @@ code{
     list-style-type: "✨ ";
 }
 
+.intro ul li{
+    padding:5px 10px;
+}
+
 @keyframes jump {
     0% {
         bottom:0px;
