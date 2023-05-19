@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.card-container{
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+code{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

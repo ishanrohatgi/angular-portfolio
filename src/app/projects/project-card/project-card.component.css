@@ -1,0 +1,33 @@
+.card{
+    padding: 20px 0px;
+    width: 320px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px outset black;
+    border-radius: 10px;
+}
+.card h5{
+    padding: 10px 0px;
+}
+.project-img{
+    width: 280px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid grey;
+} 
+.tech-stack{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+.tech-stack img{
+    height: 30px;
+    width: 30px;
+}
+.card p{
+    padding: 0px 10px;
+    text-align: justify;
+}

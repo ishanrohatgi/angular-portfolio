@@ -1,0 +1,8 @@
+<div class="card">
+    <img class="project-img" [src]="image">
+    <h5>{{title}}</h5>
+    <p>{{description}}
+    </p>
+    <div class="tech-stack" ><img *ngFor="let imgUrl of techStack" [src]="imgUrl" alt=""></div>
+    <a [href]="liveUrl"><button class="btn btn-success" style="color:white; margin-top:15px;">Live</button></a>
+</div>
