@@ -10,7 +10,11 @@
     border-radius: 10px;
 }
 .card h5{
-    padding: 10px 0px;
+    margin: 10px 0px;
+    padding: 0px 30px;
+    color: white;
+    border-radius: 50px;
+    background-color: rgb(69, 106, 230);;
 }
 .project-img{
     width: 280px;
