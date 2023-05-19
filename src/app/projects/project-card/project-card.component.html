@@ -4,5 +4,7 @@
     <p>{{description}}
     </p>
     <div class="tech-stack" ><img *ngFor="let imgUrl of techStack" [src]="imgUrl" alt=""></div>
-    <a [href]="liveUrl"><button class="btn btn-success" style="color:white; margin-top:15px;">Live</button></a>
+    <div class="buttons" style="align-self: flex-end;">
+        <a [href]="liveUrl" ><button class="btn btn-secondary" style="color:white; margin-top:40px; margin-right:20px;">Live</button></a>
+    </div>
 </div>

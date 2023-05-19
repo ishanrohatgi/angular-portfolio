@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   projects = [
     {image:'../../assets/cattyreq.JPG',
-     title:'Catty Requests',
-     Description: 'An app where you can study about all HTTP statues and codes.',
+     title:'Cat Requests',
+     Description: 'You can learn about HTTP Codes with funny cat images.',
      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
      liveUrl : 'https://cat-requests.netlify.app/'
     },
@@ -21,13 +21,13 @@ export class ProjectsComponent implements OnInit {
     },
     {image:'../../assets/newton.JPG',
      title:'Newton\'s Cradle',
-     Description: 'A simple app in which you can experience the Newton\'s cradle effect which states that demonstrates conservation of momentum and energy using a series of swinging spheres',
+     Description: 'Web simulation of famous Newton\'s cradle.',
      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png"],
      liveUrl : 'https://ishanrohatgi.github.io/newton-cradle/'
     },
     {image:'../../assets/cheems.JPG',
      title:'Catch The Cheems',
-     Description: 'A simple game where you click on a character and squre of the number of character appears on the screen and the game goes on and score increases.',
+     Description: 'Never ending game to catch your fav cheem character.',
      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png"],
      liveUrl : 'https://ishanrohatgi.github.io/catch-the-cheems/'
     }
