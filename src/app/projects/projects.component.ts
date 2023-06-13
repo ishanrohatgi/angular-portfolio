@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   projects = [
+    {image:'../../assets/textinator.JPG',
+     title:'Audio Textinator',
+     Description: 'Audio Trasncription tool with copy to clipboard tool.',
+     TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
+     liveUrl : 'https://audio-textinator.netlify.app/'
+    },
     {image:'../../assets/cattyreq.JPG',
      title:'Cat Requests',
      Description: 'You can learn about HTTP Codes with funny cat images.',
