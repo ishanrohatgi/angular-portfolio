@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   projects = [
+     {image:'../../assets/color-extractinator.JPG',
+      title:'Color Extractinator',
+      Description: 'Simple Tool which you can use to determine the colors present in an image.',
+      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/ts.png", "../../assets/angular.png"],
+      liveUrl : 'https://color-extractinator.netlify.app/'
+    },
     {image:'../../assets/textinator.JPG',
      title:'Audio Textinator',
-     Description: 'Audio Trasncription tool with copy to clipboard tool.',
+     Description: 'Audio Trasncription tool with copy to clipboard freature.',
      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
      liveUrl : 'https://audio-textinator.netlify.app/'
     },

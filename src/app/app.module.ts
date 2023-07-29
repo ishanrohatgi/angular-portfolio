@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectCardComponent } from './projects/project-card/project-card.component';
+import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectCardComponent } from './projects/project-card/project-card.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PdfViewerModule
+    PdfViewerModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgxTypedJsComponent } from 'ngx-typed-js/public_api';
 
 @Component({
   selector: 'app-home',
