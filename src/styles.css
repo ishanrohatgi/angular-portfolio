@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Pacifico&family=Press+Start+2P&display=swap');
 body{
-    background-color: black;
+    background: url('./assets/cool-background.svg');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
