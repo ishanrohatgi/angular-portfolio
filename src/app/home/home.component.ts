@@ -10,6 +10,8 @@ export class HomeComponent implements OnInit {
   jumped = false;
 
  clicked(){
+  const clickSound = new Audio('../../assets/sound.mp3');
+  clickSound.play();
   this.jumped = true;
   setTimeout(()=>{
     this.jumped = false;
