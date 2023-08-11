@@ -62,7 +62,7 @@ code{
     text-align: center;
     background-color: grey;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
 }
