@@ -110,3 +110,10 @@ code{
     }
 
 }
+
+@media screen and (max-width:1024px) {
+      :host{
+        font-size: 0.5rem;
+      }
+
+}
