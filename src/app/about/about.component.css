@@ -63,10 +63,7 @@ ul{
     border: 1px solid white;
 }
 .links > .details{
-    border: 1px outset black;
     margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.123);
 }
 .details> a{
     text-decoration: none;
