@@ -1,7 +1,7 @@
-.pdf{
+/* .pdf{
     display: block;
     height: 92vh;
-}
+} */
 
 code{
     display: inline-block;
@@ -9,15 +9,103 @@ code{
     text-align: center;
     background-color: grey;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
 }
+.resume-content{
+    display: flex;
+    gap:40px;
+    margin: 10px;
+}
+.skill-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 10px;
+    column-gap: 5px;
+}
+.skill{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0px 10px;
+   
+}
+.links{
+    margin-bottom: 20px;
+}
 
-@media screen and (max-width:500px) {
-    .pdf{
+.resume{
+    
+    margin: 20px;
+    
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.title{
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
+.title > h4{
+ margin: 0px;
+}
+.title > hr{
+    width: 70%;
+    border: 1px solid white;
+}
+.links > .details{
+    border: 1px outset black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 4px 0px;
+}
+.details> a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+.contact-details > .email-phone{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.contact-details > .details{
+    text-align: center;
+}
+.contact-details{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.languages p{
+    font-style: italic;
+}
+.exp-duration{
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+}
+@media screen and (max-width:1024px) {
+    /* .pdf{
         height: 600px;
         margin-top: 10px;
+      } */
+      :host{
+        font-size: 0.65rem;
       }
+      .skill{
+        width: 100%;
+        padding:0px 5px;
+    }
+    .skill-items{
+        gap:5px;
+    }
 
 }
