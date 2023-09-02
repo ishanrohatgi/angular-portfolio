@@ -15,8 +15,7 @@ code{
 }
 .resume-content{
     display: flex;
-    gap:40px;
-    margin: 10px;
+    gap:20px;
 }
 .skill-items{
     display: grid;
@@ -64,7 +63,6 @@ code{
     margin-bottom: 10px;
     border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.123);
-    padding: 4px 0px;
 }
 .details> a{
     text-decoration: none;
@@ -98,7 +96,7 @@ code{
         margin-top: 10px;
       } */
       :host{
-        font-size: 0.65rem;
+        font-size: 0.60rem;
       }
       .skill{
         width: 100%;
@@ -106,6 +104,9 @@ code{
     }
     .skill-items{
         gap:5px;
+    }
+    .logo{
+        scale: 0.6;
     }
 
 }
