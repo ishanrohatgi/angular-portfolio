@@ -13,6 +13,10 @@ code{
     bottom: 0px;
     left: 0px;
 }
+
+ul{
+    list-style-type: "✨ ";
+}
 .resume-content{
     display: flex;
     gap:20px;
