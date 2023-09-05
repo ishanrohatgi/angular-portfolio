@@ -36,3 +36,12 @@
 .active{
     color: rgb(235, 235, 20);
 }
+
+@media print {
+    li .link{
+        display: none;
+    }
+    h3 .link{
+        margin-left: 15px;
+    }
+}
