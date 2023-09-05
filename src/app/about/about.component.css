@@ -132,9 +132,7 @@ ul{
         height: 600px;
         margin-top: 10px;
       } */
-      .contact-details{
-        font-size: 0.55rem;
-      }
+      
       .coding-prof-md-screen{
         display: block;
     }
@@ -167,4 +165,10 @@ ul{
         scale: 0.6;
     }
 
+}
+
+@media screen and (max-width:500px){
+    .contact-details{
+        font-size: 0.55rem;
+      }
 }
