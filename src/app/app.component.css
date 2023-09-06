@@ -1,3 +1,4 @@
 :host{
     user-select: none;
+    print-color-adjust: exact;
 }
