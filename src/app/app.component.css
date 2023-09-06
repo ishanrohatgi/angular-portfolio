@@ -2,3 +2,8 @@
     user-select: none;
     print-color-adjust: exact;
 }
+@media print {
+ :host{
+   scale:0.7;
+ }
+}
