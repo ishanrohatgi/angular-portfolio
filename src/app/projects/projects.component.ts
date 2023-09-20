@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
   projects = [
+    {image:'../../assets/slideshow.JPG',
+    title:'Pokemon Displayinator',
+    Description: 'A custom made carousel component, which takes array of images and have all the basic features that are required for a carousel component.',
+    TechStack:["../../assets/html.png","../../assets/css.png","../../assets/ts.png", "../../assets/angular.png"],
+    liveUrl : 'https://pokemondisplayinator.netlify.app/'
+     },
      {image:'../../assets/color-extractinator.JPG',
       title:'Color Extractinator',
       Description: 'Simple Tool which you can use to determine the colors present in an image.',
