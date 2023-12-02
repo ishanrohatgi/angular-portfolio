@@ -30,10 +30,42 @@
 }
 
 .photo{
+    position: relative;
     display: flex;
-    width:350px;
+    width:280px;
     justify-content: center;
     align-items: center;
+}
+.li,.rs{
+    padding: 15px;
+}
+.git{
+    position: relative;
+    top:-40px;
+    margin-left: 120px;
+}
+.lc{
+    margin-left: 170px;
+}
+.hr{
+    position: relative;
+    top:40px;
+    margin-left: 120px;
+}
+.social{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    flex-direction: column;
+    width:200px;
+    right: 0px;
+    height: 400px;
+}
+.social>div img{
+    width: 50px;
+    height:  50px;
+    
 }
 
 .photo img{
@@ -91,6 +123,42 @@ code{
 }
 
 @media screen and (max-width:500px) {
+    .photo{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .social{
+        width:inherit;
+        height: inherit;
+    }
+    .li, .rs{
+        position: relative;
+        left: 110px;
+
+    }
+    .rs{
+        bottom: -2px;
+        left: 110px;
+    }
+    .git{
+        top:-22px;
+        left: 80px;
+    }
+
+    .social div img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .lc{
+        position: relative;
+        left: 60px;
+    }
+    .hr{
+        position: relative;
+        top:22px;
+        left: 80px;
+    }
     .photo img{
         height: 120px;
         width: 120px;
