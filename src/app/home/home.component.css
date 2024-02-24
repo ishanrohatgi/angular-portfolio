@@ -104,7 +104,7 @@
 }
 
 
-marquee{
+/* marquee{
     position: fixed;
     bottom: 0px;
 }
@@ -117,7 +117,7 @@ width: 200px;
     animation: jump;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-}
+} */
 code{
     display: inline-block;
     width: 100%;
@@ -137,7 +137,7 @@ code{
     padding:5px 10px;
 }
 
-@keyframes jump {
+/* @keyframes jump {
     0% {
         bottom:0px;
     }
@@ -150,7 +150,7 @@ code{
     100%{
         bottom:0px;
     }
-}
+} */
 
 @media screen and (max-width:1000px) {
     .photo img{
@@ -163,9 +163,9 @@ code{
         font-weight: bolder;
         padding:5px 10px;
     }
-    marquee{
+    /* marquee{
         display: none;
-    }
+    } */
     .main-home{
         margin-top: 50px;
     }
