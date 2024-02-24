@@ -3,7 +3,7 @@
     height: 92vh;
 } */
 
-code{
+/* code{
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -125,7 +125,9 @@ ul{
 }
 .coding-prof-md-screen .links .details{
     border: none;
-}
+} */
+
+
 @media screen and (max-width:1024px) {
     
     /* .pdf{
@@ -133,7 +135,7 @@ ul{
         margin-top: 10px;
       } */
       
-      .coding-prof-md-screen{
+      /* .coding-prof-md-screen{
         display: block;
     }
       .interests-md-screen{
@@ -163,12 +165,12 @@ ul{
     }
     .logo{
         scale: 0.6;
-    }
+    } */
 
 }
-
+/* 
 @media screen and (max-width:500px){
     .contact-details{
         font-size: 0.55rem;
       }
-}
+} */
