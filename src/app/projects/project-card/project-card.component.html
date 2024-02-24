@@ -1,5 +1,7 @@
 <div class="card">
-    <img class="project-img" [src]="image">
+    <div class="img-container">
+        <img class="project-img" (load)="loading = true" [src]="image" [ngClass]="{'opacity-none': !loading, 'opacity-visible':loading}">
+    </div>
     <h5>{{title}}</h5>
     <p>{{description}}
     </p>

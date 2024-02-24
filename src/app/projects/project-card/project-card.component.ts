@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy} from '@angular/core';
 
 @Component({
   selector: 'app-project-card',
@@ -11,6 +11,7 @@ export class ProjectCardComponent implements OnInit {
   @Input() image: string;
   @Input() techStack: string[];
   @Input() liveUrl: string;
+  loading:boolean =false;
   constructor() { 
     this.title='';
     this.description ='';
@@ -23,4 +24,7 @@ export class ProjectCardComponent implements OnInit {
     
   }
 
+  ngOnDestroy(){
+      this.loading = false;
+  }
 }

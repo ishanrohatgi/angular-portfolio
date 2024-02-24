@@ -37,3 +37,17 @@
     padding: 0px 20px;
     text-align: justify;
 }
+.img-container{
+    background-image: url('../../../assets/loading.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.opacity-none{
+    opacity: 0;
+}
+
+.opacity-visible{
+    opacity: 1;
+}
