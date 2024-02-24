@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  querySize:number = 3;
-  pageNumber:number= 1;
+
   projects = [ 
     {image:'../../assets/speachinator.jpg',
   title:'Speachinator',
