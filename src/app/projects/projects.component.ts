@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects = [
+  querySize:number = 3;
+  pageNumber:number= 1;
+  projects = [ 
+    {image:'../../assets/speachinator.jpg',
+  title:'Speachinator',
+  Description: 'Application which can be used to covert text to voice/speach which uses browser\'s speach syntheses utterence api.',
+  TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
+  liveUrl : 'https://speachinator.netlify.app/'
+   },
+
     {image:'../../assets/slideshow.JPG',
     title:'Pokemon Displayinator',
     Description: 'A custom made carousel component, which takes array of images and have all the basic features that are required for a carousel component.',
@@ -50,6 +59,7 @@ export class ProjectsComponent implements OnInit {
      liveUrl : 'https://ishanrohatgi.github.io/catch-the-cheems/'
     }
   ];
+
   constructor() { }
 
   ngOnInit(): void {

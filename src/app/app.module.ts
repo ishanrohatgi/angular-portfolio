@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectCardComponent } from './projects/project-card/project-card.component';
 import { NgxTypedJsModule } from 'ngx-typed-js';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     AboutComponent,
     NavbarComponent,
     ProjectsComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
   ],
   imports: [
     BrowserModule,

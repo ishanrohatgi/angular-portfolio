@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
+:host{
+    display: inline-block;
+    width: 100vw;
+    overflow: hidden;
+    height: calc(99vh - 52px);
+}
 .main-home{
     font-family: 'Fira Sans', sans-serif;
-    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -31,6 +36,7 @@
 
 .photo{
     display: flex;
+    position:relative;
     width:350px;
     justify-content: center;
     align-items: center;
@@ -42,6 +48,62 @@
     border-radius: 50%;
     filter: drop-shadow(16px 10px 20px rgba(0, 0, 0, 0.363));
 }
+
+.social{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 160%;
+}
+.social-item{
+   height: 15%;
+
+}
+.social-item a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.social-item a svg, .social-item a i{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.social-item a i:hover, .social-item a svg:hover{
+     font-size: 2.2rem;
+     width: 2.2rem;
+     height: 2.2rem;
+     transition: all 0.3s ease-in-out;
+
+}
+.linkedin, .resume{
+    display: flex;
+    justify-content: center;
+}
+
+.github, .leetcode, .hackerrank{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.github{
+    margin-right: 7%;
+}
+
+.hackerrank{
+    margin-right: 6%;
+}
+
+
 marquee{
     position: fixed;
     bottom: 0px;
@@ -90,7 +152,7 @@ code{
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
     .photo img{
         height: 120px;
         width: 120px;
@@ -104,4 +166,35 @@ code{
     marquee{
         display: none;
     }
+    .main-home{
+        margin-top: 50px;
+    }
+    .social{
+        align-items: center;
+    }
+    .social-item{
+        height: 20%;
+        width: 70%;
+    }
+
+   .social-item a svg, .social-item a i{
+        width: 1.4rem;
+        height: 1.4rem;
+        font-size: 1.4rem;
+    }
+
+    .social-item a svg:hover, .social-item a i:hover{
+        width: 1.7rem;
+        height: 1.7rem;
+        font-size: 1.7rem;
+    }
+
+    .github{
+        margin-right: 8%;
+    }
+    
+    .hackerrank{
+        margin-right: 8%;
+    }
+    
 }
