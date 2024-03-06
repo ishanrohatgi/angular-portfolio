@@ -8,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
 
   projects = [ 
+    {image:'../../assets/felive.jpg',
+  title:'Frontend Live',
+  Description: 'Online live code editor for HTML, CSS and JavaScript where you can write code seamlessly and visualize the output on the go.',
+  TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
+  liveUrl : 'https://frontend-live.netlify.app/'
+   },
     {image:'../../assets/speachinator.jpg',
   title:'Speachinator',
   Description: 'Application which can be used to covert text to voice/speach which uses browser\'s speach syntheses utterence api.',
