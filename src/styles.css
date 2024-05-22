@@ -1,9 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Pacifico&family=Press+Start+2P&display=swap');
 body{
     background: url('./assets/background1.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+*{
+    font-family: "Concert One", sans-serif;
 }
