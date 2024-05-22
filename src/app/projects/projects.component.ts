@@ -45,12 +45,6 @@ export class ProjectsComponent implements OnInit {
      TechStack:["../../assets/html.png","../../assets/css.png","../../assets/js.png", "../../assets/react.png"],
      liveUrl : 'https://cat-requests.netlify.app/'
     },
-    {image:'../../assets/ytd.JPG',
-     title:'Youtube Downloader',
-     Description: 'An app where you can download Youtube Videos using its URL.',
-     TechStack:["../../assets/html.png","../../assets/css.png","../../assets/ts.png", "../../assets/angular.png","../../assets/node.png"],
-     liveUrl : 'https://youtube-saver.netlify.app/'
-    },
     {image:'../../assets/newton.JPG',
      title:'Newton\'s Cradle',
      Description: 'Web simulation of famous Newton\'s cradle.',
