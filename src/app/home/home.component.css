@@ -15,6 +15,29 @@
     
     flex-wrap: wrap-reverse;
 }
+.contact-form{
+    position:absolute;
+    right:10px;
+    bottom:50px;
+   
+}
+
+.contact-form i{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size:1.5rem;
+    margin-bottom:-20px;
+    color: white;
+    background-color: rgb(69, 106, 230);
+    border: 2px inset white;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+}
+
 .main-home h3{
     display: flex;
     align-items:center;
@@ -159,7 +182,7 @@ code{
     }
     .intro ul li{
         text-align: justify;
-        font-size: .85rem;
+        font-size: .68rem;
         font-weight: bolder;
         padding:5px 10px;
     }
@@ -195,6 +218,11 @@ code{
     
     .hackerrank{
         margin-right: 8%;
+    }
+    .contact-form i{
+        font-size: 1.5rem;
+        height: 45px;
+        width: 45px;
     }
     
 }
