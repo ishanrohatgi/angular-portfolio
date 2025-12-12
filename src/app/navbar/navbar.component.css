@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 .main-navbar{
-    background-color: grey;
+ /* background: linear-gradient(135deg, #0d1b2a, #1b263b, #0c0f1a);
+  backdrop-filter: blur(6px); */
+   background: linear-gradient(135deg, #ff007f, #ff4fa3, #d40076);
+  backdrop-filter: blur(6px);
     color: white;
     font-family: 'Fira Sans', sans-serif;
   
@@ -34,7 +37,7 @@
 }
 
 .active{
-    color: rgb(235, 235, 20);
+    color: #00f5ff;
 }
 
 @media print {

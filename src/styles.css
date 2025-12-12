@@ -1,13 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 @import "~@fortawesome/fontawesome-free/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Pacifico&family=Press+Start+2P&display=swap');
 body{
-    background: url('./assets/background1.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background: url('./assets/background1.svg'); */
+
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+  /* background: linear-gradient(135deg, #0a0a0f, #0f1a2b, #000000); */
+   background: linear-gradient(135deg, 
+    #0b1523,   /* deep navy similar to #0d1b2a */
+    #102031,   /* soft transition tone */
+    #1b263b,   /* matches navbar second stop */
+    #0a0f17    /* deep dark tone similar to #0c0f1a */
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: #ffffff;
 }
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 *{
-    font-family: "Concert One", sans-serif;
+ font-family: "Space Grotesk", sans-serif;
+
 }

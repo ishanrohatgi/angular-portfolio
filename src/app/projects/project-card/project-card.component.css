@@ -6,9 +6,20 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
+    /* border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 10px black; */
+      background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  color: white;
+  font-size:small;
 
 }
 .card h5{
@@ -16,7 +27,8 @@
     padding: 0px 30px;
     color: white;
     border-radius: 50px;
-    background-color: rgb(69, 106, 230);;
+    background: linear-gradient(135deg, #ff007f, #ff4fa3, #d40076);
+  backdrop-filter: blur(6px);
 }
 .project-img{
     width: 280px;

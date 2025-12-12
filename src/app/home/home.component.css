@@ -4,6 +4,7 @@
     width: 100vw;
     overflow: hidden;
     height: calc(99vh - 52px);
+    color: white;
 }
 .main-home{
     font-family: 'Fira Sans', sans-serif;
@@ -43,7 +44,7 @@
     align-items:center;
     justify-content: center;
     height: 40px;
-    background-color: rgb(69, 106, 230);
+    background: linear-gradient(135deg, #ff007f, #ff4fa3, #d40076);
     border-radius:50px;
     color: white;
 }
@@ -86,7 +87,7 @@
 }
 .social-item a{
     text-decoration: none;
-    color: black;
+    color: white;
     height: 100%;
     display: flex;
     align-items: center;
@@ -145,7 +146,7 @@ code{
     display: inline-block;
     width: 100%;
     text-align: center;
-    background-color: grey;
+    background: linear-gradient(135deg, #ff007f, #ff4fa3, #d40076);
     color: white;
     position: fixed;
     bottom: 0px;
