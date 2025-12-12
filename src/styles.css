@@ -4,28 +4,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Pacifico&family=Press+Start+2P&display=swap');
-body{
-    /* background: url('./assets/background1.svg'); */
 
-    /* background-repeat: no-repeat;
-    background-size: cover; */
-  /* background: linear-gradient(135deg, #0a0a0f, #0f1a2b, #000000); */
-   background: linear-gradient(135deg, 
-    #0b1523,   /* deep navy similar to #0d1b2a */
-    #102031,   /* soft transition tone */
-    #1b263b,   /* matches navbar second stop */
-    #0a0f17    /* deep dark tone similar to #0c0f1a */
-  );
-  background-size: 400% 400%;
-  animation: gradientMove 12s ease infinite;
+body {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 245, 255, 0.12), transparent 35%),
+    radial-gradient(circle at 80% 80%, rgba(255, 0, 127, 0.12), transparent 35%),
+    linear-gradient(135deg,
+      #0b1523,
+      #0f1c2e,
+      #1b263b,
+      #080c14
+    );
+
+  background-size: 200% 200%;
+  animation: bgFlow 18s ease-in-out infinite;
   color: #ffffff;
 }
 
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+@keyframes bgFlow {
+  0% {
+    background-position: 0% 50%, 100% 50%, 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%, 0% 50%, 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%, 100% 50%, 0% 50%;
+  }
 }
+
 
 *{
  font-family: "Space Grotesk", sans-serif;
