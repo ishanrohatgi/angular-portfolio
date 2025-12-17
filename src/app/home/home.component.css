@@ -8,12 +8,12 @@
 }
 .main-home{
     font-family: 'Fira Sans', sans-serif;
-    margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
-    
+    margin-top:50vh;
+    transform: translateY(-60%);
     flex-wrap: wrap-reverse;
 }
 .contact-form{
@@ -127,6 +127,9 @@
     margin-right: 6%;
 }
 
+.job-title{
+  text-align:center;
+}
 
 /* marquee{
     position: fixed;
@@ -191,7 +194,8 @@ code{
         display: none;
     } */
     .main-home{
-        margin-top: 50px;
+        margin-top: 60px;
+        transform:initial;
     }
     .social{
         align-items: center;
